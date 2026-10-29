@@ -1,0 +1,2 @@
+dataset,operation,measured_runs,minimum,first_quartile,median,third_quartile,maximum,iqr,rows,columns,matrix_nonzero_count,vector_length,checksum,output_nonzero_count,vector_seed,load_and_conversion_seconds
+mc2depi,sparse_matrix_vector,5,0.0033857,0.0035065,0.0041597,0.0050587,0.0064434,0.0015522,525825,525825,2100225,525825,61776,525748,20261028,0.09748340002261102

@@ -1,0 +1,38 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated auxiliary datasets
+data/generated/*
+
+# Keep the generated-directory structure
+!data/generated/.gitkeep
+
+# LaTeX auxiliary files
+report/*.aux
+report/*.bbl
+report/*.bcf
+report/*.blg
+report/*.fdb_latexmk
+report/*.fls
+report/*.log
+report/*.out
+report/*.run.xml
+report/*.synctex.gz
+report/*.toc
+
+# The final report PDF is intentionally tracked
+!report/main.pdf

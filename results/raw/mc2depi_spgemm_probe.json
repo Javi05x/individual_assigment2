@@ -1,0 +1,22 @@
+{
+  "dataset": "mc2depi",
+  "operation": "sparse_matrix_matrix_A_times_A",
+  "rows": 525825,
+  "columns": 525825,
+  "input_nonzero_count": 2100225,
+  "output_nonzero_count": 5245952,
+  "output_sparsity": 0.999981026744657,
+  "load_and_conversion_seconds": 0.11599489999935031,
+  "multiplication_seconds": 0.05003200005739927,
+  "input_csr_storage_bytes": 27306004,
+  "input_csr_storage_mib": 26.041034698486328,
+  "output_csr_storage_bytes": 65054728,
+  "output_csr_storage_mib": 62.04102325439453,
+  "rss_before_product_mb": 89.53515625,
+  "rss_after_product_mb": 149.625,
+  "rss_observed_delta_mb": 60.08984375,
+  "output_checksum": 0,
+  "input_data_dtype": "int64",
+  "output_data_dtype": "int64",
+  "memory_note": "RSS was observed before and after the product; this exploratory probe does not measure peak RSS."
+}
